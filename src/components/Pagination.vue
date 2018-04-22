@@ -51,11 +51,11 @@ export default {
     paginateDropdownAllowAll: { default: true },
 
     // text options
-    nextText: { default: 'Next' },
-    prevText: { default: 'Prev' },
-    rowsPerPageText: { default: 'Rows per page:' },
-    ofText: { default: 'of' },
-    allText: { default: 'All' },
+    nextText: { default: 'Nächste Seite' },
+    prevText: { default: 'Vorherige Seite' },
+    rowsPerPageText: { default: 'Zeilen pro Seite:' },
+    ofText: { default: 'von' },
+    allText: { default: 'Alle' },
   },
 
   data: () => ({
