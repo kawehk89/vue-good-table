@@ -103,7 +103,7 @@ table.vgt-table {
   line-height: 1;
   display: block;
   font-size: 14px;
-  font-weight: regular;
+  font-weight: 300;
   padding: 6px 12px;
   color: #606266;
   border-radius: 4px;
@@ -198,9 +198,9 @@ table.vgt-table {
   border-left: 1px solid #DCDFE6;
   border-right: 1px solid #DCDFE6;
   color: #d3aa3b;
-  font-weight: bold; }
+  font-weight: 400; }
   .vgt-selection-info-row a {
-    font-weight: bold;
+    font-weight: 400;
     display: inline-block;
     margin-left: 10px; }
 
@@ -225,7 +225,7 @@ table.vgt-table {
     font-size: 14px;
     margin-left: 8px;
     color: #606266;
-    font-weight: bold; }
+    font-weight: 400; }
     .vgt-wrap__footer .footer__row-count__select:focus {
       outline: none;
       border-color: #409eff; }
@@ -237,7 +237,7 @@ table.vgt-table {
     .vgt-wrap__footer .footer__navigation__page-btn {
       text-decoration: none;
       color: #606266;
-      font-weight: bold;
+      font-weight: 400;
       white-space: nowrap; }
       .vgt-wrap__footer .footer__navigation__page-btn:focus {
         outline: none;
