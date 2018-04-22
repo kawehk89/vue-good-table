@@ -79,11 +79,11 @@ var VueGoodPagination = { render: function () {
     paginateDropdownAllowAll: { default: true },
 
     // text options
-    nextText: { default: 'Next' },
-    prevText: { default: 'Prev' },
-    rowsPerPageText: { default: 'Rows per page:' },
-    ofText: { default: 'of' },
-    allText: { default: 'All' }
+    nextText: { default: 'Nächste Seite' },
+    prevText: { default: 'Vorherige Seite' },
+    rowsPerPageText: { default: 'Zeilen pro Seite:' },
+    ofText: { default: 'von' },
+    allText: { default: 'Alle' }
   },
 
   data: function () { return ({
@@ -522,7 +522,7 @@ var GoodTable = { render: function () {
         return {
           enabled: false,
           selectionInfoClass: '',
-          selectionText: 'rows selected',
+          selectionText: 'Zeilen ausgewählt',
           clearSelectionText: 'clear'
         };
       }
@@ -558,7 +558,7 @@ var GoodTable = { render: function () {
           trigger: null,
           externalQuery: null,
           searchFn: null,
-          placeholder: 'Search Table'
+          placeholder: 'Tabelle durchsuchen'
         };
       }
     }
@@ -566,16 +566,16 @@ var GoodTable = { render: function () {
 
   data: function () { return ({
     // text options
-    nextText: 'Next',
-    prevText: 'Prev',
-    rowsPerPageText: 'Rows per page',
-    ofText: 'of',
-    allText: 'All',
+    nextText: 'Nächste Seite',
+    prevText: 'Vorherige Seite',
+    rowsPerPageText: 'Zeilen pro Seite',
+    ofText: 'von',
+    allText: 'Alle',
 
     // internal select options
     selectable: false,
     selectionInfoClass: '',
-    selectionText: 'rows selected',
+    selectionText: 'Zeilen ausgewählt',
     clearSelectionText: 'clear',
 
     // internal sort options
@@ -587,7 +587,7 @@ var GoodTable = { render: function () {
     searchTrigger: null,
     externalSearchQuery: null,
     searchFn: null,
-    searchPlaceholder: 'Search Table',
+    searchPlaceholder: 'Tabelle durchsuchen',
 
     // internal pagination options
     perPage: null,
@@ -872,7 +872,7 @@ var GoodTable = { render: function () {
         // calculate page end now
         var pageEnd = paginatedRows.length + 1;
 
-        // if the setting is set to 'all'
+        // if the setting is set to 'Alle'
         if (this.currentPerPage !== -1) {
           pageEnd = this.currentPage * this.currentPerPage;
         }
