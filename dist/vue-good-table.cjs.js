@@ -522,7 +522,7 @@ var GoodTable = { render: function () {
         return {
           enabled: false,
           selectionInfoClass: '',
-          selectionText: 'Zeilen ausgewählt',
+          selectionText: 'rows selected',
           clearSelectionText: 'clear'
         };
       }
@@ -558,7 +558,7 @@ var GoodTable = { render: function () {
           trigger: null,
           externalQuery: null,
           searchFn: null,
-          placeholder: 'Tabelle durchsuchen'
+          placeholder: 'Search Table'
         };
       }
     }
@@ -576,7 +576,7 @@ var GoodTable = { render: function () {
     selectable: false,
     selectionInfoClass: '',
     selectionText: 'Zeilen ausgewählt',
-    clearSelectionText: 'clear',
+    clearSelectionText: 'Auswahl aufheben',
 
     // internal sort options
     sortable: true,
@@ -872,7 +872,7 @@ var GoodTable = { render: function () {
         // calculate page end now
         var pageEnd = paginatedRows.length + 1;
 
-        // if the setting is set to 'Alle'
+        // if the setting is set to 'all'
         if (this.currentPerPage !== -1) {
           pageEnd = this.currentPage * this.currentPerPage;
         }

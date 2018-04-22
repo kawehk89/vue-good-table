@@ -5521,11 +5521,11 @@ var VueGoodPagination = { render: function () {
     paginateDropdownAllowAll: { default: true },
 
     // text options
-    nextText: { default: 'Next' },
-    prevText: { default: 'Prev' },
-    rowsPerPageText: { default: 'Rows per page:' },
-    ofText: { default: 'of' },
-    allText: { default: 'All' }
+    nextText: { default: 'Nächste Seite' },
+    prevText: { default: 'Vorherige Seite' },
+    rowsPerPageText: { default: 'Zeilen pro Seite:' },
+    ofText: { default: 'von' },
+    allText: { default: 'Alle' }
   },
 
   data: function () { return ({
@@ -10346,17 +10346,17 @@ var GoodTable = { render: function () {
 
   data: function () { return ({
     // text options
-    nextText: 'Next',
-    prevText: 'Prev',
-    rowsPerPageText: 'Rows per page',
-    ofText: 'of',
-    allText: 'All',
+    nextText: 'Nächste Seite',
+    prevText: 'Vorherige Seite',
+    rowsPerPageText: 'Zeilen pro Seite',
+    ofText: 'von',
+    allText: 'Alle',
 
     // internal select options
     selectable: false,
     selectionInfoClass: '',
-    selectionText: 'rows selected',
-    clearSelectionText: 'clear',
+    selectionText: 'Zeilen ausgewählt',
+    clearSelectionText: 'Auswahl aufheben',
 
     // internal sort options
     sortable: true,
@@ -10367,7 +10367,7 @@ var GoodTable = { render: function () {
     searchTrigger: null,
     externalSearchQuery: null,
     searchFn: null,
-    searchPlaceholder: 'Search Table',
+    searchPlaceholder: 'Tabelle durchsuchen',
 
     // internal pagination options
     perPage: null,
