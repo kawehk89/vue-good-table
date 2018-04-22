@@ -72,12 +72,12 @@
           border-bottom: 6px solid transparent;
         }
         &.left::after{
-          border-right:  6px solid $link-color;
+          border-right:  6px solid #606266;
           margin-left:  -3px;
         }
       
         &.right::after{
-          border-left:  6px solid $link-color;
+          border-left:  6px solid #606266;
           margin-left:  -3px;
         }
       }

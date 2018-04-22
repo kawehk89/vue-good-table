@@ -49,7 +49,7 @@ table.vgt-table {
   vertical-align: middle; }
   .vgt-table th.sorting:hover:after {
     display: inline-block;
-    border-bottom-color: #73b8ff; }
+    border-bottom-color: #FFF; }
 
 .vgt-table th.line-numbers, .vgt-table th.vgt-checkbox-col {
   padding: 0 .75rem 0 .75rem;
@@ -90,9 +90,9 @@ table.vgt-table {
       margin-top: -3px;
       border-left: 6px solid transparent;
       border-right: 6px solid transparent;
-      border-bottom: 6px solid #409eff; }
+      border-bottom: 6px solid rgba(255, 255, 255, 0.85); }
   .vgt-table thead th.sorting-desc:after {
-    border-top: 6px solid #409eff;
+    border-top: 6px solid rgba(255, 255, 255, 0.85);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: none; }
@@ -265,10 +265,10 @@ table.vgt-table {
           border-top: 6px solid transparent;
           border-bottom: 6px solid transparent; }
         .vgt-wrap__footer .footer__navigation__page-btn .chevron.left::after {
-          border-right: 6px solid #409eff;
+          border-right: 6px solid #606266;
           margin-left: -3px; }
         .vgt-wrap__footer .footer__navigation__page-btn .chevron.right::after {
-          border-left: 6px solid #409eff;
+          border-left: 6px solid #606266;
           margin-left: -3px; }
     .vgt-wrap__footer .footer__navigation__info {
       color: #909399;
